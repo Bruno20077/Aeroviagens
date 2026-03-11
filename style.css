@@ -33,9 +33,9 @@
      padding: 100px 20px;
 }
 .section-02{
-background-color: #0a3d62;
+background: #0a3d62;
 padding: 50px;
-color: white;
+color: rgb(255, 255, 255);
 display: flex;
 align-items: center;
 justify-content: center;
@@ -53,4 +53,44 @@ text-align: center;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+}
+.card h3{
+margin: 10px;
+}
+.card p{
+    margin-bottom: 15px;
+    color: #555;
+}
+.section-03 h2{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 12px;
+    border: none;
+    background: #0a3d62;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #0a3d62;
+    color: white;
+    margin-top: 40px;
 }
