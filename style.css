@@ -15,6 +15,7 @@
 
 .ul-lista li {
     list-style: none;
+
 }
 
 .ul-lista {
@@ -29,6 +30,7 @@
     text-transform: uppercase;
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 .section-01 {
@@ -38,6 +40,11 @@
     padding: 100px 20px;
 }
 
+.link {
+    color: white;
+    text-decoration: none;
+}
+
 .section-02 {
     background: #0a3d62;
     padding: 50px;
@@ -45,36 +52,75 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    gap: 125px;
+
+
 }
 
 .section-02 h2 {
-    font-size: 30px;
-    padding: 60px;
-    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    text-transform: uppercase;
+
 }
 
 .section-02 img {
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    width: 325px;
+    border-radius: 10px;
 }
 
-.card h3 {
+.card {
+    max-width: 260px;
+}
+
+.card h2 {
     font-size: 25px;
     margin: 10px;
+    text-transform: uppercase;
+
 }
 
 .card p {
+    font-weight: 700px;
     font-size: 25px;
     margin-bottom: 15px;
     color: #555;
 }
 
+/* FIM DA SEGUNDA SECTION */
+
+/* INÍCIO DA TERCEIRA SECTION */
+.section-03 {
+    background: #154766;
+    padding: 60px;
+    text-align: center;
+}
+
 .section-03 h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.passagens-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.passagem-card {
+    width: 250px;
+    background: #f5f5f5;
+    padding: 25px;
+    border-radius: 10px;
+
+}
+
+
+/* INÍCIO SECTION 04 */
+.section-04 h2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,15 +149,25 @@ button {
     cursor: pointer;
 }
 
-.caixa-footer {
+/* INÍCIO DO FOOTER */
+footer {
     text-align: center;
     padding: 20px;
     background: #0a3d62;
     color: white;
     margin-top: 40px;
 }
-.footer, .fa-square-instagram, .fa-square-x-twitter, .fa-square-facebook{
+
+.caixa-footer {
+    text-align: center;
+}
+
+.footer,
+.fa-square-instagram,
+.fa-square-x-twitter,
+.fa-square-facebook {
     color: black;
     cursor: pointer;
-    
+    font-size: 25px;
+
 }
